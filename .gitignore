@@ -1,0 +1,26 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+*.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Data output
+/data/processed/
+/data/feedback_images/
+/data/feedback.csv
+/model/weights.pth
+/model/weights.metrics.json
+
+# OS files
+*.bak
+*.tmp
+*.swp
+
+# IDE files
+.vscode/
+.idea/
